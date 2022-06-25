@@ -6,6 +6,8 @@
   * [Technology used](#technology-used)
  ## Demo:
 https://user-images.githubusercontent.com/84284893/175790119-b0529313-ff3f-4e18-ad8a-e92b6e7cb306.mp4
+## Overview:
+It involves building a page that reflects an information and animated user-friendly experience. Whether creating a website, a mobile app, or keeping information on a web page, appearance and design are considered essential components in this design.
  ## Directory Tree:
 ```
 🌐 Wesite Root
