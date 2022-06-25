@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/84284893/175790119-b0529313-ff3f-4e18-
 │   ├─ 🧾index.js
 ├─ 📟 Graphics
 │   ├─ 💶1.png...
-│   └─ 🎬video.mp4
+│   └─ 🎬Demo(2).mp4
 └─
 ```
 ## Technology used:
