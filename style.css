@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    box-shadow: 10px 2px 10px grey;
+    height:75px ;
+}
+
+.background {
+    background: #ffffff;
+    background-size:contain;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex !important;
+}
+
+.logo img {
+    height : 50px;
+    width : 50px;
+    margin-left : 15px ;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000000;
+    text-align : center;
+}
+
+.nav-list li :hover {
+    color: grey;
+}
+.header {
+    font-size:xxx-large;
+    font-weight: 400;
+}
+.wrapper {
+display: flex;
+margin: 0 auto;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+}
+
+.wrapper img {
+    height : 20px;
+    width : 20px;
+}
+
+#one {
+margin-top: auto;
+margin-bottom: auto;
+margin-right: 15px ;
+}
+
+.gallery{
+  width:auto;
+  display:flex;
+  border-radius: 15px  ;
+  border:solid 1px black;
+  margin: 0 5%;
+}
+#img1 {
+    width:33.33%;
+    margin:0;
+    transition: all 200ms ease-in;
+    height:400px;
+    background: url("4.jpeg") no-repeat center center/cover;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:40px 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+#img2 {
+    width:33.33%;
+    margin:0;
+    transition: all 200ms ease-in;
+    height:400px;
+    background: url("5.jpeg") no-repeat center center/cover;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:40px 25px;
+}
+
+#img3 {
+    width:33.33%;
+    margin:0;
+    transition: all 200ms ease-in;
+    height:400px;
+    background: url("6.jpeg") no-repeat center center/cover;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:40px 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.imageTitle {
+    text-transform: uppercase;
+    color:white;
+    font-weight: 500;
+    font-size:18px;
+}
+.arrow {
+    background:white;
+    color:grey;
+    padding:10px;
+    border-radius:50% ;
+    height: 30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow img {
+    height: 30px;
+    width: 30px;
+}
+#arrowOne,#arrowTwo,#arrowThree {
+    display:none;
+}
